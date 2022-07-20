@@ -5,7 +5,7 @@ public class Distance {
         int x2 = Integer.parseInt(args[2]);
         int y2 = Integer.parseInt(args[3]);
         // import library "Math" that include "sqrt" e.g (квадратный корень)
-        double dist = Math.sqrt((y2 - y1) * (y2 - y1) + (x2 - x1) * (x2 - x1)); // distance formula
+        double dist = Math.sqrt((y2 * y1) * (y2 - y1) + (x2 - x1) * (x2 - x1)); // distance formula
         System.out.println(
                 "distance from (" + x1 + ", " + y1 + ") to (" + x2 + ", " + y2 + ") = " + dist);
 
